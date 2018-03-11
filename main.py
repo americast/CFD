@@ -3,7 +3,7 @@ os.system("./KEY_face")
 subscription_key = os.getenv("KEY_face")
 assert subscription_key
 
-face_api_url = 'https://westcentralus.api.cognitive.microsoft.com/face/v1.0/detect'
+face_api_url = 'https://westcentralus.api.cognitive.microsoft.com/face/v1.0/'
 
 image_url = 'https://how-old.net/Images/faces2/main001.jpg'
 
