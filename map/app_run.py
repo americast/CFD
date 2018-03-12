@@ -3,10 +3,13 @@ from wtforms import Form, TextField, TextAreaField, validators, StringField, Sub
 import os
 import thread
 import emotion
+import detect_text
 
 # App config.
 DEBUG = True
 app = Flask(__name__)
+subscription_key_vision = "9c47fc0301fe4e3696b44818e1721da0"
+img_url = "https://3.bp.blogspot.com/-lmL864sF8A4/WGph86k0eEI/AAAAAAAAEE4/34SkurmxHXI2bqupRoeGO2makaYFkPQngCLcB/s1600/je2.png"
 # app.config.from_object(__name__,template_folder='./')
 # app.config['SECRET_KEY'] = '7d441f27d441f27567d441f2b6176a'
  
@@ -27,7 +30,8 @@ def hello():
             emotion.annotate_image()
             return render_template('emotion.html')
         elif request.form['btn'] == "bt2":
-            return render_template('hotSpot.html')
+            detect_text.localize_text(subscription_key_vision, img_url, "Rahul" )
+            return render_template('text.html')
         elif request.form['btn'] == "bt3":
             return render_template('hotSpot.html')
         elif request.form['btn'] == "bt3":
