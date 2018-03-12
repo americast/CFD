@@ -17,8 +17,12 @@ CF.BaseUrl.set(BASE_URL)
 # img_url = 'https://raw.githubusercontent.com/Microsoft/Cognitive-Face-Windows/master/Data/detection1.jpg'
 person_gp_id = "kubs"
 person_name = sys.argv[1]
-CF.person_group.create(person_gp_id)
-a = CF.person.create(person_name, person_gp_id)
+here = ""
+try:
+    here = CF.person_group.create(person_gp_id)
+except:
+    print here
+a = CF.person.create(person_gp_id, person_name)
 print(a)
 backend_person_id = a['personId']
 
@@ -35,20 +39,22 @@ except:
 
 image_path = sys.argv[2]
 face_id1 = CF.person.add_face(image_path, person_gp_id, a['personId'])
-names[face_id1] = person_name
+# print("face id 1: ", face_id1, "person_name: ", person_name)
+names[face_id1['persistedFaceId']] = person_name
 
 image_path = sys.argv[3]
 face_id1 = CF.person.add_face(image_path, person_gp_id, a['personId'])
-names[face_id1] = person_name
+names[face_id1['persistedFaceId']] = person_name
 
 image_path = sys.argv[4]
 face_id1 = CF.person.add_face(image_path, person_gp_id, a['personId'])
-names[face_id1] = person_name
+names[face_id1['persistedFaceId']] = person_name
 
 print(CF.person.get(person_gp_id, a['personId']))
 CF.person_group.train(person_gp_id)
-parsed = json.loads(names)
+
+print("names: ",names)
 
 with open('temp.json', 'w') as f:
-    f.write(json.dumps(parsed))
+    f.write(json.dumps(str(names)))
 
