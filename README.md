@@ -6,7 +6,7 @@
 
 ### Type in the terminal
 
-export Face API Key as `KEY_face` to the environment.
+export Face API Key as `KEY_face` and recognisation key as `KEY_reco` to the environment.
 ```bash
 $cd map
 $python app.py

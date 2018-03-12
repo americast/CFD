@@ -12,7 +12,7 @@ import cv2
 import os
 
 
-subscription_key = os.getenv("KEY_face")
+subscription_key = os.getenv("KEY_reco")
 assert subscription_key
 
 emotion_recognition_url = "https://westus.api.cognitive.microsoft.com/emotion/v1.0/recognize"
