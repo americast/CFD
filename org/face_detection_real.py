@@ -34,10 +34,10 @@ def getRectangleTuple(faceDictionary):
 f = open('temp.json', 'r')
 parsed = json.load(f)
 
-# cam = cv2.VideoCapture(0)
+cam = cv2.VideoCapture(0)
 while True:
-    # ret_val, img = cam.read()
-    img = cv2.imread("img/1.jpg")
+    ret_val, img = cam.read()
+    # img = cv2.imread("img/1.jpg")
     draw = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
 
     drawhere = ImageDraw.Draw(draw)
@@ -54,13 +54,13 @@ while True:
 
     flag = False
     for face in array:
-        k = CF.face.identify([face['faceId']], "kubs")
+        k = CF.face.identify([face['faceId']], "kubss")
         try:
             print("k: ", k)
-            print("Found: " + parsed[k[0]['faceId']])
+            print("Found: " + parsed[k[0]['candidates'][0]['personId']])
             tuplehere = getRectangleTuple(face)
             drawhere.rectangle(tuplehere, outline='green')
-            drawhere.text(tuplehere, parsed[k[0]['faceId']], font=ImageFont.truetype("font_path123"))
+            drawhere.text(tuplehere[0], parsed[k[0]['candidates'][0]['personId']])
         except:
             print("No faces found.")
             flag = True

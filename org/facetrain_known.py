@@ -16,7 +16,7 @@ CF.BaseUrl.set(BASE_URL)
 
 # You can use this example JPG or replace the URL below with your own URL to a JPEG image.
 # img_url = 'https://raw.githubusercontent.com/Microsoft/Cognitive-Face-Windows/master/Data/detection1.jpg'
-person_gp_id = "kubs"
+person_gp_id = "kubss"
 person_name = sys.argv[1]
 here = ""
 try:
@@ -43,15 +43,17 @@ print("names", names)
 image_path = sys.argv[2]
 face_id1 = CF.person.add_face(image_path, person_gp_id, a['personId'])
 print("face id 1: ", face_id1, "names: ", names)
-names[face_id1['persistedFaceId'].encode('ascii','ignore')] = person_name
+# names[face_id1['persistedFaceId'].encode('ascii','ignore')] = person_name
 
 image_path = sys.argv[3]
 face_id1 = CF.person.add_face(image_path, person_gp_id, a['personId'])
-names[face_id1['persistedFaceId'].encode('ascii','ignore')] = person_name
+# names[face_id1['persistedFaceId'].encode('ascii','ignore')] = person_name
 
 image_path = sys.argv[4]
 face_id1 = CF.person.add_face(image_path, person_gp_id, a['personId'])
-names[face_id1['persistedFaceId'].encode('ascii','ignore')] = person_name
+# names[face_id1['persistedFaceId'].encode('ascii','ignore')] = person_name
+
+names[a['personId'].encode('ascii','ignore')] = person_name
 
 print(CF.person.get(person_gp_id, a['personId']))
 CF.person_group.train(person_gp_id)
