@@ -2,6 +2,8 @@ import os
 import cognitive_face as CF
 import numpy as np
 import cv2
+import sys
+import json
 
 KEY = os.getenv("KEY_face")  # Replace with a valid subscription key (keeping the quotes in place).
 CF.Key.set(KEY)
@@ -13,23 +15,40 @@ CF.BaseUrl.set(BASE_URL)
 
 # You can use this example JPG or replace the URL below with your own URL to a JPEG image.
 # img_url = 'https://raw.githubusercontent.com/Microsoft/Cognitive-Face-Windows/master/Data/detection1.jpg'
-person_gp_id = raw_input("Enter person group id: ")
-person_name = raw_input("Enter person name: ")
+person_gp_id = "kubs"
+person_name = sys.argv[1]
 CF.person_group.create(person_gp_id)
 a = CF.person.create(person_name, person_gp_id)
 print(a)
 backend_person_id = a['personId']
 
+try:
+    f = open('temp.json', 'r')
+    names = json.load(f)
+except:
+    names = {}
+
 # img1 = cv2.imread("img/1.jpg")
 # img2 = cv2.imread("img/2.jpg")
 # img3 = cv2.imread("img/3.jpg")
 
-image_path = raw_input("Path to image 1: ")
+
+image_path = sys.argv[2]
 face_id1 = CF.person.add_face(image_path, person_gp_id, a['personId'])
-image_path = raw_input("Path to image 2: ")
+names[face_id1] = person_name
+
+image_path = sys.argv[3]
 face_id1 = CF.person.add_face(image_path, person_gp_id, a['personId'])
-image_path = raw_input("Path to image 3: ")
+names[face_id1] = person_name
+
+image_path = sys.argv[4]
 face_id1 = CF.person.add_face(image_path, person_gp_id, a['personId'])
+names[face_id1] = person_name
 
 print(CF.person.get(person_gp_id, a['personId']))
 CF.person_group.train(person_gp_id)
+parsed = json.loads(names)
+
+with open('temp.json', 'w') as f:
+    f.write(json.dumps(parsed))
+
