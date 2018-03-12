@@ -3,6 +3,8 @@ import cognitive_face as CF
 import numpy as np
 import cv2
 from PIL import Image, ImageDraw
+import matplotlib.cm as cm
+import json
 
 KEY = os.getenv("KEY_face")  # Replace with a valid subscription key (keeping the quotes in place).
 CF.Key.set(KEY)
@@ -32,31 +34,42 @@ f = open('temp.json', 'r')
 parsed = json.load(f)
 
 cam = cv2.VideoCapture(0)
-    while True:
-        ret_val, img = cam.read()
-        draw = Image.fromarray(np.uint8(cm.gist_earth(myarray)*255))
+while True:
+    ret_val, img = cam.read()
+    draw = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
 
-        draw = ImageDraw.Draw(img)
-        image_array = []
-        count = 0
-        for face in faces:
-            count+=1
-            a = draw.crop(getRectangle(face))
-            a.save(count+".jpg")
+    drawhere = ImageDraw.Draw(draw)
+    cv2.imwrite("temp.jpg", img)
+    # draw = ImageDraw.Draw(img)
+    array = CF.face.detect("temp.jpg")
+    print("array:", array)
 
-            array = CF.face.detect(count+".jpg")
-            print("array:", array)
+    # count = 0
+    # for face in array:
+    #     count+=1
+        # a = draw.crop(getRectangle(face))
+        # a.save(count+".jpg")
 
-            k = CF.face.identify([array[0]['faceId']], "kubs")
-            try:
-                print("Found: " + parsed[k[0]['faceId']])
-                tuplehere = getRectangleTuple(face)
-                draw.rectangle(, outline='red')
-                draw.text(tuplehere, parsed[k[0]['faceId']], font=ImageFont.truetype("font_path123"))
-            except:
-                print("No faces found.")
+    flag = False
+    for face in array:
+        k = CF.face.identify([face['faceId']], "kubs")
+        try:
+            print("k: ", k)
+            print("Found: " + parsed[k[0]['faceId']])
+            tuplehere = getRectangleTuple(face)
+            drawhere.rectangle(tuplehere, outline='green')
+            drawhere.text(tuplehere, parsed[k[0]['faceId']], font=ImageFont.truetype("font_path123"))
+        except:
+            print("No faces found.")
+            flag = True
+        if flag:
+            for face in array:
+                drawhere.rectangle(getRectangleTuple(face), outline='red')
 
-        draw.show()
+
+    # draw.show()
+    cv2.imshow("result", cv2.cvtColor(np.array(draw), cv2.COLOR_RGB2BGR))
+    cv2.waitKey(3000)
 
 
 
