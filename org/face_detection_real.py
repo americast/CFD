@@ -5,6 +5,7 @@ import cv2
 from PIL import Image, ImageDraw
 import matplotlib.cm as cm
 import json
+import yaml
 
 KEY = os.getenv("KEY_face")  # Replace with a valid subscription key (keeping the quotes in place).
 CF.Key.set(KEY)
@@ -33,9 +34,10 @@ def getRectangleTuple(faceDictionary):
 f = open('temp.json', 'r')
 parsed = json.load(f)
 
-cam = cv2.VideoCapture(0)
+# cam = cv2.VideoCapture(0)
 while True:
-    ret_val, img = cam.read()
+    # ret_val, img = cam.read()
+    img = cv2.imread("img/1.jpg")
     draw = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
 
     drawhere = ImageDraw.Draw(draw)

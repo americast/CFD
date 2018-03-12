@@ -3,6 +3,7 @@ import cognitive_face as CF
 import numpy as np
 import cv2
 import sys
+import yaml
 import json
 
 KEY = os.getenv("KEY_face")  # Replace with a valid subscription key (keeping the quotes in place).
@@ -20,6 +21,7 @@ person_name = sys.argv[1]
 here = ""
 try:
     here = CF.person_group.create(person_gp_id)
+    print "New group kubs created"
 except:
     print here
 a = CF.person.create(person_gp_id, person_name)
@@ -32,6 +34,7 @@ try:
 except:
     names = {}
 
+print("names", names)
 # img1 = cv2.imread("img/1.jpg")
 # img2 = cv2.imread("img/2.jpg")
 # img3 = cv2.imread("img/3.jpg")
@@ -39,22 +42,26 @@ except:
 
 image_path = sys.argv[2]
 face_id1 = CF.person.add_face(image_path, person_gp_id, a['personId'])
-# print("face id 1: ", face_id1, "person_name: ", person_name)
-names[face_id1['persistedFaceId']] = person_name
+print("face id 1: ", face_id1, "names: ", names)
+names[face_id1['persistedFaceId'].encode('ascii','ignore')] = person_name
 
 image_path = sys.argv[3]
 face_id1 = CF.person.add_face(image_path, person_gp_id, a['personId'])
-names[face_id1['persistedFaceId']] = person_name
+names[face_id1['persistedFaceId'].encode('ascii','ignore')] = person_name
 
 image_path = sys.argv[4]
 face_id1 = CF.person.add_face(image_path, person_gp_id, a['personId'])
-names[face_id1['persistedFaceId']] = person_name
+names[face_id1['persistedFaceId'].encode('ascii','ignore')] = person_name
 
 print(CF.person.get(person_gp_id, a['personId']))
 CF.person_group.train(person_gp_id)
 
-print("names: ",names)
+print("names: ", names)
 
-with open('temp.json', 'w') as f:
-    f.write(json.dumps(str(names)))
+f = open("temp.json", "w")
+json.dump(names,f)
+f.close()
+print "done"
+
+
 
