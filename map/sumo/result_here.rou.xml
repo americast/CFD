@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Aug 30 17:28:42 2017 by SUMO duarouter Version 0.19.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/ubuntu/NewYork/map/sumo/map.net.xml"/>
+        <weight-files value="/home/ubuntu/NewYork/map/sumo/weights"/>
+        <trip-files value="/home/ubuntu/NewYork/map/sumo/temp_trip"/>
+    </input>
+
+    <output>
+        <output-file value="/home/ubuntu/NewYork/map/sumo/result_here.rou.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/routes_file.xsd">
+    <vehicle id="0" depart="0.00">
+        <route edges="46334598#1 458166896#4"/>
+    </vehicle>
+</routes>

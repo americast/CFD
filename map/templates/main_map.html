@@ -1,0 +1,72 @@
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+      <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/leaflet.css') }}">
+      <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/Control.Geocoder.css') }}">
+      <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main_map.css') }}">
+
+	  <script src="{{url_for('static', filename='js/leaflet.js')}}"></script>
+	  <script src="{{url_for('static', filename='js/Control.Geocoder.js')}}"></script>
+	<style>
+	#map {
+		position: absolute;
+		display: inline-block;
+		height: 650px;
+		width: 1190px;
+	    margin-top: 10px;
+	    margin-left: 95px;
+		z-index: 0;
+	}	
+#input {
+    position: absolute;
+    display: inline-block;
+    height: 700px;
+    width: 180px;
+    margin-top: 0px;
+    margin-left: 10px;
+
+background-image: linear-gradient(to left, red 30%,yellow 30%,white 0%);
+    z-index: 2;
+}  
+</style>
+</head>
+<body>
+<div id = "input">
+<div class="markers-color-palette">
+
+<br><br><br>
+{% with messages = get_flashed_messages() %}
+       {% if messages %}
+          {% for message in messages %}
+             {{ message }}
+          {% endfor %}
+       {% endif %}
+    {% endwith %}
+</div>
+
+	<br><br><br>
+	<form action="" method="post">
+	    {{ form.csrf }}
+
+	    <div class="input submit">
+	        <input type="submit" name="btn" value="bt1" />
+	        <br/>
+	        <input type="submit" name="btn" value="bt2" />
+	        <br/>
+	        <input type="submit" name="btn" value="bt3" />
+	        <br/>
+	        <input type="submit" name="btn" value="bt4" />
+	    </div>
+
+	</form>
+</div>
+<div><img src=</div>
+
+
+
+</body>
+</html>

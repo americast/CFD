@@ -1,0 +1,974 @@
+sudo: unable to resolve host localhost.localdomain
+sudo: unable to resolve host localhost.localdomain
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 797-637-481
+10.105.57.93 - - [30/Aug/2017 05:20:44] "GET / HTTP/1.1" 200 -
+10.105.57.93 - - [30/Aug/2017 05:20:45] "GET /static/css/Control.Geocoder.css HTTP/1.1" 200 -
+10.105.57.93 - - [30/Aug/2017 05:20:45] "GET /static/css/leaflet.css HTTP/1.1" 200 -
+10.105.57.93 - - [30/Aug/2017 05:20:45] "GET /static/js/leaflet.js HTTP/1.1" 200 -
+10.105.57.93 - - [30/Aug/2017 05:20:45] "GET /static/css/main_map.css HTTP/1.1" 200 -
+10.105.57.93 - - [30/Aug/2017 05:20:45] "GET /static/js/Control.Geocoder.js HTTP/1.1" 200 -
+10.105.57.93 - - [30/Aug/2017 05:20:45] "GET /static/css/red-marker.png HTTP/1.1" 200 -
+10.105.57.93 - - [30/Aug/2017 05:20:45] "GET /static/css/blue-marker.png HTTP/1.1" 200 -
+10.105.57.93 - - [30/Aug/2017 05:20:48] "GET /favicon.ico HTTP/1.1" 404 -
+10.105.57.93 - - [30/Aug/2017 05:20:48] "GET /favicon.ico HTTP/1.1" 404 -
+172.16.2.22 - - [30/Aug/2017 16:30:47] "GET / HTTP/1.1" 200 -
+172.16.2.22 - - [30/Aug/2017 16:30:47] "GET /static/css/leaflet.css HTTP/1.1" 200 -
+172.16.2.22 - - [30/Aug/2017 16:30:47] "GET /static/css/main_map.css HTTP/1.1" 200 -
+172.16.2.22 - - [30/Aug/2017 16:30:47] "GET /static/css/Control.Geocoder.css HTTP/1.1" 200 -
+172.16.2.22 - - [30/Aug/2017 16:30:47] "GET /static/js/leaflet.js HTTP/1.1" 200 -
+172.16.2.22 - - [30/Aug/2017 16:30:47] "GET /static/js/Control.Geocoder.js HTTP/1.1" 200 -
+172.16.2.22 - - [30/Aug/2017 16:30:47] "GET /static/css/red-marker.png HTTP/1.1" 200 -
+172.16.2.22 - - [30/Aug/2017 16:30:47] "GET /static/css/blue-marker.png HTTP/1.1" 200 -
+172.16.2.22 - - [30/Aug/2017 16:30:50] "GET /favicon.ico HTTP/1.1" 404 -
+172.16.2.22 - - [30/Aug/2017 16:30:50] "GET /favicon.ico HTTP/1.1" 404 -
+Enter popular edge ids to keep in routing table (0 to stop): Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Enter source edge: Enter destination edge: Go to 68674962#1
+Go to 68674962#2
+Go to 68674962#3
+Go to 68674962#4
+Go to 68674962#5
+Go to 68674962#6
+Go to 68674962#7
+Go to 68674962#8
+Go to 68674962#9
+Go to 68674962#10
+Go to 68674962#11
+Go to 68674962#12
+Go to 68674962#13
+Go to 68674962#14
+Go to 68674962#15
+Go to 68674962#16
+Go to 68674962#17
+Go to 68674962#18
+Go to 68674962#19
+Go to 68674962#20
+Go to 68674962#21
+Go to 68674962#22
+Go to 68674962#23
+Go to 68674962#24
+Go to 68674962#25
+Go to 68674962#26
+Go to 68674962#27
+Go to 68674962#28
+Go to 5670572#6
+Go to 5670572#7
+Go to 195743335#0
+Go to 195743335#1
+Go to 195743342#0
+Go to 195743342#1
+Go to 321166651#0
+Go to 321166651#1
+Go to 427818545
+Go to 427818548
+Go to -321166653
+Go to -385446609#2
+Go to -385446609#1
+Go to -385446609#0
+Go to -436899204
+Go to -385446618#1
+Go to 195743342#6
+Go to 198924778#0
+Go to 198924778#1
+Go to 436899199#1
+Go to 436899193#0
+Go to 436899193#1
+Go to 436899201
+Go to -436899177#1
+Go to 5672951#1
+Go to 5672951#2
+Go to 5672951#3
+Go to 5672951#4
+Go to 321059671#7
+Go to 321059671#8
+Traceback (most recent call last):
+  File "/home/ubuntu/NewYork/map/utils/display_map.py", line 13, in <module>
+    plt.plot(lon,lat,'b')
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 3306, in plot
+    ax = gca()
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 950, in gca
+    return gcf().gca(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 586, in gcf
+    return figure()
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 535, in figure
+    **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py", line 46, in new_figure_manager
+    return new_figure_manager_given_figure(num, thisFig)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py", line 53, in new_figure_manager_given_figure
+    canvas = FigureCanvasQTAgg(figure)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py", line 76, in __init__
+    FigureCanvasQT.__init__(self, figure)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4.py", line 63, in __init__
+    _create_qApp()
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt5.py", line 144, in _create_qApp
+    raise RuntimeError('Invalid DISPLAY variable')
+RuntimeError: Invalid DISPLAY variable
+172.16.2.22 - - [30/Aug/2017 16:32:56] "POST / HTTP/1.1" 200 -
+172.16.2.22 - - [30/Aug/2017 16:32:56] "GET / HTTP/1.1" 200 -
+/usr/local/lib/python2.7/dist-packages/werkzeug/filesystem.py:63: BrokenFilesystemWarning: Detected a misconfigured UNIX filesystem: Will use UTF-8 as filesystem encoding instead of 'ANSI_X3.4-1968'
+  BrokenFilesystemWarning)
+Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 209, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 200, in execute
+    write(data)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 165, in write
+    self.send_response(int(code), msg)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 276, in send_response
+    self.wfile.write(hdr.encode('ascii'))
+IOError: [Errno 32] Broken pipe
+Enter popular edge ids to keep in routing table (0 to stop): Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Enter source edge: Enter destination edge: Go to 5670897#0
+Go to 5670897#1
+Go to 392528993
+Go to 481655774
+Go to 481655771#1
+Go to 481655771#2
+Go to -481655770
+Go to -481655768
+Go to 431040819#3
+Go to 431040819#4
+Go to 481655773#0
+Go to 197582873#1
+Go to 5671743#0
+Go to -431040799#0
+Go to 352705241#0
+Go to 352705241#1
+Go to 352324954#6
+Go to -197582876#3
+Go to -197582876#2
+Go to 352324954#3
+Go to 352705241#4
+Go to 352705241#5
+Go to 352705241#6
+Go to -431040824#1
+Go to -352705236#0
+Go to 5672896#0
+Go to 5672896#1
+Go to 5672896#2
+Go to 5672896#3
+Go to 5672896#4
+Go to 5672896#5
+Go to 5672896#6
+Go to 5671429#1
+Go to 5671429#2
+Go to 5671429#3
+Go to 5671429#4
+Go to 5671429#5
+Go to 5671429#6
+Go to 229904064#11
+Go to 229904064#12
+Go to 229904064#13
+Go to 229904064#14
+Go to -415082455#0
+Go to -430610571
+Go to -430610052#4
+Go to -430610052#3
+Go to 420872180#2
+Go to 420872180#3
+Go to -430610057#2
+Go to -430610057#1
+Go to 33804446#21
+Go to 430610067#1
+Go to 430610067#2
+Go to 420872180#5
+Go to 420872180#6
+Go to 430610055#2
+Go to 430610055#3
+Go to -430610564
+Go to 430610073#0
+Go to 430610073#1
+Go to -430610042#4
+Go to 229904064#24
+Go to 229904064#25
+Go to 229904064#26
+Go to 229904064#27
+Go to -430610568#3
+Go to 420598230#6
+Go to 420598230#7
+Go to -430610565#2
+Go to -430610565#1
+Go to -430610565#0
+Go to 430610041#2
+Go to 354393791#0
+Go to 354393791#1
+Go to 430386748#0
+Go to 430386748#1
+Go to 229904064#31
+Go to 229904064#32
+Go to 229904064#33
+Go to 229904064#34
+Go to 157014135#0
+Go to -430386757#0
+Go to -364569012#4
+Go to 229904064#36
+Go to 229904064#37
+Go to 229904064#38
+Go to 229904064#39
+Go to 229904064#40
+Go to 229904064#41
+Go to -385105826#1
+Go to 194923807#1
+Go to -335935797#1
+Go to 229904064#43
+Go to 229904064#44
+Go to 229904064#45
+Go to 380096992#3
+Go to 194923807#5
+Go to -512052144#3
+Go to -512052144#2
+Go to -512052143#1
+Go to 194923807#7
+Go to 194923807#8
+Go to -512052142#0
+Go to 229904064#50
+Go to 229904064#51
+Go to 229904064#52
+Go to 229904064#53
+Go to 229904064#54
+Go to 229904064#55
+Go to 5672190#1
+Go to 5672190#2
+Go to 5672190#3
+Go to 5672190#4
+Go to 5672190#5
+Go to -398400192#0
+Go to -398400194#3
+Go to -398400194#2
+Go to -389737133#0
+Go to -389737133#2
+Go to -398400194#0
+Go to -398400191#1
+Go to -398400191#0
+Go to 398400195#0
+Go to 375602663
+Go to 375602930
+Go to 375602932#0
+Go to 375602932#1
+Go to -375603426
+Go to -375603431
+Go to -375603436
+Go to 375603433
+Go to -457948935#3
+Go to -457948935#2
+Go to -457948935#1
+Go to -457948935#0
+Go to -457948932#5
+Go to -457948932#4
+Go to -457948932#3
+Go to -457948932#2
+Go to -457948932#1
+Go to -457948932#0
+Go to -457948933
+Go to -457948931
+Go to -378363533#1
+Go to -378363533#0
+Go to 46201642#1
+Go to 381477008
+Go to 5673626#0
+Go to 5673626#1
+Go to 226041000#3
+Go to 226040999
+Go to 226041001#0
+Go to 226041001#1
+Go to 226041001#2
+Go to 226041001#3
+Go to 226041001#4
+Go to 226041001#5
+Go to 36806906#0
+Go to 36806906#1
+Traceback (most recent call last):
+  File "/home/ubuntu/NewYork/map/utils/display_map.py", line 13, in <module>
+    plt.plot(lon,lat,'b')
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 3306, in plot
+    ax = gca()
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 950, in gca
+    return gcf().gca(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 586, in gcf
+    return figure()
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 535, in figure
+    **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py", line 46, in new_figure_manager
+    return new_figure_manager_given_figure(num, thisFig)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py", line 53, in new_figure_manager_given_figure
+    canvas = FigureCanvasQTAgg(figure)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py", line 76, in __init__
+    FigureCanvasQT.__init__(self, figure)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4.py", line 63, in __init__
+    _create_qApp()
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt5.py", line 144, in _create_qApp
+    raise RuntimeError('Invalid DISPLAY variable')
+RuntimeError: Invalid DISPLAY variable
+172.16.2.22 - - [30/Aug/2017 16:39:35] "POST / HTTP/1.1" 200 -
+Enter popular edge ids to keep in routing table (0 to stop): Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Enter source edge: Enter destination edge: Go to 388696207#1
+Go to 198924587
+Go to 458180198#0
+Go to 458180198#1
+Go to 5672290#0
+Go to 436899196#1
+Go to 436899205
+Go to -330748493#1
+Go to -330748494
+Go to 109269752#1
+Go to -330748488#1
+Go to -330748488#0
+Go to -330748490#0
+Go to 109269756#1
+Go to 5670874#2
+Go to 46583189#0
+Go to -436899189#0
+Go to 436899179#0
+Go to 436899179#1
+Go to 162138628#0
+Go to 162138628#1
+Go to 162138628#2
+Go to 436899187#0
+Go to 436899187#1
+Go to 113049805#0
+Go to 113049805#1
+Go to 435346675#2
+Go to 435347264#0
+Go to 113049826#3
+Go to 29317327#0
+Go to 29317327#1
+Go to 29317345
+Go to 153232761#4
+Go to 153232761#5
+Go to 153232761#6
+Go to 153232761#7
+Go to 153232761#8
+Go to 153232761#9
+Go to 22898530#1
+Go to 22898530#2
+Go to 329988122#2
+Go to 329988122#3
+Go to 22898530#5
+Go to 308322448#0
+Go to 329988123#1
+Go to 308322448#2
+Go to 196116976#0
+Go to 196116976#1
+Go to 196116976#2
+Go to 196116976#3
+Go to 196116976#4
+Go to 46538375#8
+Go to 433476262#7
+Go to 46538335#6
+Go to -332054904#5
+Go to -332054904#4
+Go to 196116976#8
+Go to 194920158#11
+Go to 433476262#9
+Go to 433476262#10
+Go to 433476262#11
+Go to 35027232#0
+Go to 35027232#1
+Go to 35027232#2
+Go to 35027232#3
+Go to 477374247#0
+Go to 477374247#1
+Go to 477374247#2
+Go to 35027229#0
+Go to 35027229#1
+Go to 500717410
+Go to 500717404#0
+Go to 5670197#5
+Go to 384649120#4
+Go to 36806906#1
+Traceback (most recent call last):
+  File "/home/ubuntu/NewYork/map/utils/display_map.py", line 13, in <module>
+    plt.plot(lon,lat,'b')
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 3306, in plot
+    ax = gca()
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 950, in gca
+    return gcf().gca(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 586, in gcf
+    return figure()
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 535, in figure
+    **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py", line 46, in new_figure_manager
+    return new_figure_manager_given_figure(num, thisFig)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py", line 53, in new_figure_manager_given_figure
+    canvas = FigureCanvasQTAgg(figure)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py", line 76, in __init__
+    FigureCanvasQT.__init__(self, figure)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4.py", line 63, in __init__
+    _create_qApp()
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt5.py", line 144, in _create_qApp
+    raise RuntimeError('Invalid DISPLAY variable')
+RuntimeError: Invalid DISPLAY variable
+172.16.2.22 - - [30/Aug/2017 16:42:51] "POST / HTTP/1.1" 200 -
+172.16.2.5 - - [30/Aug/2017 17:20:43] "GET / HTTP/1.1" 200 -
+172.16.2.5 - - [30/Aug/2017 17:20:43] "GET /static/css/leaflet.css HTTP/1.1" 200 -
+172.16.2.5 - - [30/Aug/2017 17:20:43] "GET /static/css/Control.Geocoder.css HTTP/1.1" 200 -
+172.16.2.5 - - [30/Aug/2017 17:20:43] "GET /static/css/main_map.css HTTP/1.1" 200 -
+172.16.2.5 - - [30/Aug/2017 17:20:43] "GET /static/js/leaflet.js HTTP/1.1" 200 -
+172.16.2.5 - - [30/Aug/2017 17:20:43] "GET /static/js/Control.Geocoder.js HTTP/1.1" 200 -
+172.16.2.5 - - [30/Aug/2017 17:20:44] "GET /static/css/blue-marker.png HTTP/1.1" 200 -
+172.16.2.5 - - [30/Aug/2017 17:20:44] "GET /static/css/red-marker.png HTTP/1.1" 200 -
+172.16.2.5 - - [30/Aug/2017 17:20:46] "GET /favicon.ico HTTP/1.1" 404 -
+Enter popular edge ids to keep in routing table (0 to stop): Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Error: No connection between '46340271#0' and '196116975#0' found.
+Error: No connection between '46340271#0' and '196116975#0' found.
+Error: Mandatory edge '196116975#0' not reachable by vehicle '0'.
+Error: The vehicle '0' has no valid route.
+Quitting (on error).
+Enter source edge: Enter destination edge: Traceback (most recent call last):
+  File "/home/ubuntu/NewYork/map/utils/path_predict.py", line 39, in <module>
+    next_id=(all_text.split('edges'))[1].split(' ')[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/home/ubuntu/NewYork/map/utils/display_map.py", line 13, in <module>
+    plt.plot(lon,lat,'b')
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 3306, in plot
+    ax = gca()
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 950, in gca
+    return gcf().gca(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 586, in gcf
+    return figure()
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 535, in figure
+    **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py", line 46, in new_figure_manager
+    return new_figure_manager_given_figure(num, thisFig)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py", line 53, in new_figure_manager_given_figure
+    canvas = FigureCanvasQTAgg(figure)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py", line 76, in __init__
+    FigureCanvasQT.__init__(self, figure)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4.py", line 63, in __init__
+    _create_qApp()
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt5.py", line 144, in _create_qApp
+    raise RuntimeError('Invalid DISPLAY variable')
+RuntimeError: Invalid DISPLAY variable
+172.16.2.5 - - [30/Aug/2017 17:20:56] "POST / HTTP/1.1" 200 -
+172.16.2.5 - - [30/Aug/2017 17:21:07] "GET / HTTP/1.1" 200 -
+Enter popular edge ids to keep in routing table (0 to stop): Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Reading time step: 0.00  (0.00/2147483.00 = 0.00% done)       Success.
+Enter source edge: Enter destination edge: Go to -194753585
+Go to 321059671#5
+Go to 458180200#5
+Go to 458180195
+Go to 458180193#0
+Go to 458180193#1
+Go to 458180193#2
+Go to 458180188#0
+Go to 459175380#5
+Go to 459175380#0
+Go to 459175380#1
+Go to -459175383#3+459175380#2
+Go to -459175381#3
+Go to -459175381#2
+Go to 226041006#4
+Go to 169267540#0
+Go to 169267540#1
+Go to 398380568#1
+Go to 398380567#0
+Go to 398380567#1
+Go to 398379301#0
+Go to 398379301#1
+Go to 398379296#0
+Go to 398379296#1
+Go to 398379312#0
+Go to 398379312#1
+Go to 398379305
+Go to 398379311#0
+Go to 398379311#1
+Go to 398379306
+Go to 398379313#0
+Go to 398379313#1
+Go to -362785941#2
+Go to -362785941#1
+Go to -362785941#0
+Go to -398379310#0
+Go to -398379298#2
+Go to -398379298#1
+Go to -398379298#0
+Go to -385106974#1
+Go to -385106974#0
+Go to -385106978#2
+Go to -385106978#1
+Go to -385106978#0
+Go to -362785947#1
+Go to -362785947#0
+Go to -379865571
+Go to -379865570
+Go to -385106977#2
+Go to -385106977#1
+Go to -385106977#0
+Go to -362786543#2
+Go to -362786543#1
+Go to -362786543#0
+Go to -398380563#2
+Go to -398380563#1
+Go to -398380563#0
+Go to -362783339#1
+Go to -362783339#0
+Go to 362786545#0
+Go to 362786545#1
+Go to -380098433#0
+Go to 368938760#0
+Go to 368938760#1
+Go to 420872210
+Go to 46201642#0
+Go to 378363533#0
+Go to 378363533#1
+Go to 457948931
+Go to 457948933
+Go to 457948932#0
+Go to 457948932#1
+Go to 457948932#2
+Go to -457948934#1
+Go to -457948934#0
+Go to 157014137#1
+Go to 421852618#0
+Go to 421852618#1
+Go to 420872183#0
+Go to 420872183#1
+Go to 420872188#0
+Go to 476392462
+Go to 457948935#3
+Go to -375603433
+Go to 375603436
+Go to 375603431
+Go to 375603426
+Go to -375602932#1
+Go to -375602932#0
+Go to -375602930
+Go to -375602663
+Go to -398400195#0
+Go to 398400191#0
+Go to 398400191#1
+Go to 426651389#2
+Go to 378363224#1
+Go to 378363224#2
+Go to 378363224#3
+Go to 378363224#4
+Go to 378363224#5
+Go to 378363224#6
+Go to 378363224#7
+Go to 378363224#8
+Go to 378363530
+Go to 5672992
+Go to 46334598#0
+Go to 46334598#1
+Go to 458166896#4
+Traceback (most recent call last):
+  File "/home/ubuntu/NewYork/map/utils/display_map.py", line 13, in <module>
+    plt.plot(lon,lat,'b')
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 3306, in plot
+    ax = gca()
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 950, in gca
+    return gcf().gca(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 586, in gcf
+    return figure()
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 535, in figure
+    **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py", line 46, in new_figure_manager
+    return new_figure_manager_given_figure(num, thisFig)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py", line 53, in new_figure_manager_given_figure
+    canvas = FigureCanvasQTAgg(figure)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py", line 76, in __init__
+    FigureCanvasQT.__init__(self, figure)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4.py", line 63, in __init__
+    _create_qApp()
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt5.py", line 144, in _create_qApp
+    raise RuntimeError('Invalid DISPLAY variable')
+RuntimeError: Invalid DISPLAY variable
+172.16.2.5 - - [30/Aug/2017 17:28:43] "POST / HTTP/1.1" 200 -
