@@ -53,18 +53,19 @@ background-image: linear-gradient(to left, red 30%,yellow 30%,white 0%);
 	    {{ form.csrf }}
 
 	    <div class="input submit">
-	        <input type="submit" name="btn" value="bt1" />
+	        <input type="submit" name="btn" value="Find happiest and saddest people" />
 	        <br/>
-	        <input type="submit" name="btn" value="bt2" />
+	        <input type="submit" name="btn" value="Text localisation" />
 	        <br/>
-	        <input type="submit" name="btn" value="bt3" />
+	        <input type="submit" name="btn" value="Face recognition" />
 	        <br/>
-	        <input type="submit" name="btn" value="bt4" />
+	        <!-- <input type="submit" name="btn" value="bt4" /> -->
 	    </div>
-
 	</form>
 </div>
-<div><img src=</div>
+
+<div><img src="{{ url_for('static', filename='cub.jpg') }}"/>
+</div>
 
 
 

@@ -31,7 +31,7 @@ def getRectangleTuple(faceDictionary):
     right = top + rect['width']
     return ((left, top), (bottom, right))
 
-f = open('temp.json', 'r')
+f = open('../org/temp.json', 'r')
 parsed = json.load(f)
 
 cam = cv2.VideoCapture(0)
@@ -55,6 +55,8 @@ while True:
     flag = False
     for face in array:
         k = CF.face.identify([face['faceId']], "kubss")
+        for face in array:
+            drawhere.rectangle(getRectangleTuple(face), outline='red')
         try:
             print("k: ", k)
             print("Found: " + parsed[k[0]['candidates'][0]['personId']])
@@ -63,15 +65,12 @@ while True:
             drawhere.text(tuplehere[0], parsed[k[0]['candidates'][0]['personId']])
         except:
             print("No faces found.")
-            flag = True
-        if flag:
-            for face in array:
-                drawhere.rectangle(getRectangleTuple(face), outline='red')
 
 
     # draw.show()
     cv2.imshow("result", cv2.cvtColor(np.array(draw), cv2.COLOR_RGB2BGR))
-    cv2.waitKey(3000)
+    if cv2.waitKey(3000) & 0xFF == ord('q'):
+        break
 
 
 

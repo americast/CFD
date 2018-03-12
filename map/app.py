@@ -26,16 +26,17 @@ def hello():
             # os.system("python /home/ubuntu/NewYork/map/utils/net_to_json.py")
             # flash("Random !")
             return render_template('main_map.html', form=form)
-        elif request.form['btn'] == "bt1":
+        elif request.form['btn'] == "Find happiest and saddest people":
             emotion.annotate_image()
             return render_template('emotion.html')
-        elif request.form['btn'] == "bt2":
+        elif request.form['btn'] == "Text localisation":
             detect_text.localize_text(subscription_key_vision, img_url, "Rahul" )
             return render_template('text.html')
-        elif request.form['btn'] == "bt3":
+        elif request.form['btn'] == "Face recognition":
+            os.system("python ../org/face_detection_real.py")
             return render_template('hotSpot.html')
-        elif request.form['btn'] == "bt3":
-            return render_template('hotSpot.html')
+        # elif request.form['btn'] == "bt3":
+        #     return render_template('hotSpot.html')
 
 
  
